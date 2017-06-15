@@ -129,6 +129,23 @@
     self.frame = frame;
 }
 
+- (UIImage *)dl_snapshotImage {
+    return [self dl_snapshotImageAfterScreenUpdates:YES];
+}
+
+- (UIImage *)dl_snapshotImageAfterScreenUpdates:(BOOL)afterUpdates {
+    UIGraphicsBeginImageContextWithOptions(self.bounds.size, self.opaque, 0);
+    UIImage *snap = nil;
+    if (![self respondsToSelector:@selector(drawViewHierarchyInRect:afterScreenUpdates:)]) {
+        [self.layer renderInContext:UIGraphicsGetCurrentContext()];
+    } else {
+        [self drawViewHierarchyInRect:self.bounds afterScreenUpdates:afterUpdates];
+    }
+    snap = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return snap;
+}
+
 
 
 @end
