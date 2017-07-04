@@ -48,6 +48,7 @@
 		855F8A191EFD7F60007D2485 /* UIButton+ELAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ELAdd.m"; sourceTree = "<group>"; };
 		855F8A1B1EFD7F60007D2485 /* UIView+ELAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ELAdd.h"; sourceTree = "<group>"; };
 		855F8A1C1EFD7F60007D2485 /* UIView+ELAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ELAdd.m"; sourceTree = "<group>"; };
+		85BEBC811F0B8F8000C98EE4 /* ELMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELMacro.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				855F8A081EFD7F60007D2485 /* ELCategories.h */,
+				85BEBC811F0B8F8000C98EE4 /* ELMacro.h */,
 				855F8A091EFD7F60007D2485 /* NSBundle */,
 				855F8A0C1EFD7F60007D2485 /* NSString */,
 				855F8A111EFD7F60007D2485 /* UIAlertController */,
@@ -409,6 +411,7 @@
 				855F89E91EFD7EFE007D2485 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
