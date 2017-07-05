@@ -9,12 +9,12 @@
 #ifndef ELCategories_h
 #define ELCategories_h
 
-#import "NSBundle+DLAdd.h"
-#import "NSString+DLAdd.h"
-#import "NSString+DLQRCode.h"
-#import "UIAlertController+DLAdd.h"
-#import "UIApplication+DLAdd.h"
-#import "UIButton+DLAdd.h"
-#import "ELMacro"
-
+#import "NSBundle+ELAdd.h"
+#import "NSString+ELAdd.h"
+#import "NSString+ELQRCode.h"
+#import "UIAlertController+ELAdd.h"
+#import "UIApplication+ELAdd.h"
+#import "UIButton+ELAdd.h"
+#import "NSDictionary+ELBuilder.h"
+#import "ELMacro.h"
 #endif 
