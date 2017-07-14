@@ -10,8 +10,9 @@
 
 @interface NSString (ELAdd)
 
+
 - (UIImage *)el_image;
 - (NSURL *)el_url;
-
+- (NSString *)el_md5String;
 
 @end

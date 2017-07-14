@@ -13,4 +13,13 @@
 @property (nullable, nonatomic, readonly) NSString *el_appBundleID;
 @property (nullable, nonatomic, readonly) NSString *el_appVersion;
 @property (nullable, nonatomic, readonly) NSString *el_appBuildVersion;
+
+@property (nullable, nonatomic, readonly) NSString *el_documentsURL;
+@property (nullable, nonatomic, readonly) NSString *el_libraryURL;
+@property (nullable, nonatomic, readonly) NSString *el_cachesURL;
+
+@property (nullable, nonatomic, readonly) NSString *el_documentsPath;
+@property (nullable, nonatomic, readonly) NSString *el_libraryPath;
+@property (nullable, nonatomic, readonly) NSString *el_cachesPath;
+
 @end
