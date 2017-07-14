@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-
 @interface ELDictionaryBuilder : NSObject
 @property (nonatomic, copy) ELDictionaryBuilder *(^setValue)(NSString *key, id value);
 @property (nonatomic, copy) ELDictionaryBuilder *(^setIntValue)(NSString *key, int value);
@@ -17,11 +16,6 @@
 @property (nonatomic, strong) NSMutableDictionary *dict;
 @end
 
-
 @interface NSDictionary (ELBuilder)
-
 + (ELDictionaryBuilder *)builder;
-
-
-
 @end

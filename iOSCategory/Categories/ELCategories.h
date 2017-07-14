@@ -17,4 +17,5 @@
 #import "UIButton+ELAdd.h"
 #import "NSDictionary+ELBuilder.h"
 #import "ELMacro.h"
+#import "UIImage+ELAdd.h"
 #endif 
